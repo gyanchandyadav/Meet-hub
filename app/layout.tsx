@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "MEETHUB",
   description: "Video calling App",
+  
   icons: {
     icon: "/icons/logo.jpg",
   },
