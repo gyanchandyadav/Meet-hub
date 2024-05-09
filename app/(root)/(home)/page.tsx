@@ -2,10 +2,10 @@ import MeetingTypeList from '@/components/MeetingTypeList';
 
 const Home = () => {
   const now = new Date();
-const options = { timeZone: 'Asia/Kolkata', hour12: false, hour: '2-digit' as const, minute: '2-digit' as const };
-const time = now.toLocaleTimeString('en-IN', options);
-const date = (new Intl.DateTimeFormat('en-IN', { dateStyle: 'full' })).format(now);
-
+  const options = { timeZone: 'Asia/Kolkata', hour12: true, hour: '2-digit' as const, minute: '2-digit' as const };
+  const time = now.toLocaleTimeString('en-IN', options);
+  const date = (new Intl.DateTimeFormat('en-IN', { dateStyle: 'full' })).format(now);
+  
   
   
 
